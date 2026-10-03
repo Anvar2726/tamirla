@@ -2,11 +2,11 @@
 
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { ROUTES } from "@/shared/config/routes";
-import AppLayout from "@/app/layouts/AppLayout/AppLayout";
 
 import { lazy } from "react";
 import PageSuspense from "./PageSuspense";
 import ErrorBoundary from "../ErrorBoundary";
+import AppLayout from "../layouts/Applayout/AppLayout";
 
 const DashboardPage = lazy(() => import("@/pages/dashboard/DashboardPage"));
 const OrdersPage = lazy(() => import("@/pages/orders/OrdersPage"));
