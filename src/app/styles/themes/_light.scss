@@ -1,0 +1,25 @@
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-bg: var(--gray-50);
+  --color-surface: var(--white);
+  --color-surface-muted: var(--gray-100);
+  --color-border: var(--gray-200);
+  --color-text: var(--gray-900);
+  --color-link: var(--blue-600);
+  --color-primary: var(--blue-600);
+  --color-primary-hover: var(--blue-700);
+  --color-on-primary: var(--white);
+
+  // new colors
+  --tone-neutral-bg: var(--gray-100);
+  --tone-neutral-text: var(--gray-700);
+  --tone-info-bg: var(--blue-100);
+  --tone-info-text: var(--blue-700);
+  --tone-warning-bg: var(--amber-100);
+  --tone-warning-text: var(--amber-600);
+  --tone-success-bg: var(--green-100);
+  --tone-success-text: var(--green-600);
+  --tone-danger-bg: var(--red-100);
+  --tone-danger-text: var(--red-600);
+}

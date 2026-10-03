@@ -1,0 +1,24 @@
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: var(--gray-950);
+  --color-surface: var(--gray-900);
+  --color-surface-muted: var(--gray-800);
+  --color-border: var(--gray-700);
+  --color-text: var(--gray-100);
+  --color-link: var(--blue-400);
+  --color-primary: var(--blue-600);
+  --color-primary-hover: var(--blue-700);
+  --color-on-primary: var(--white);
+
+  // new colors
+  --tone-neutral-bg: var(--gray-800);
+  --tone-neutral-text: var(--gray-100);
+  --tone-info-bg: #1e3a5f;
+  --tone-info-text: var(--blue-400);
+  --tone-warning-bg: #4a3510;
+  --tone-warning-text: #fbbf24;
+  --tone-success-bg: #14532d;
+  --tone-success-text: #4ade80;
+  --tone-danger-bg: #4c1d1d;
+  --tone-danger-text: #f87171;
+}
